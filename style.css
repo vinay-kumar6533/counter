@@ -1,0 +1,71 @@
+body{
+    background:black;
+    color:white;
+}
+h1{
+    text-decoration:underline;
+    font-style:italic;
+    color:red;
+    text-shadow:1px 1px 1px white;
+    font-size:40px;
+}
+.container
+{
+    height:400px;
+    width:400px;
+    border:1px solid blue;
+    margin:auto;
+}
+.num
+{
+    height:100px;
+    width:100px;
+    border:1px solid green;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:30px;
+    color:green;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.incre
+{
+    height:40px;
+    width:40px;
+    margin-left:158px;
+    font-weight:bold;
+    background:rgb(49, 125, 218);
+    color:white;
+    margin-top:5px;
+}
+.decre
+{
+    height:40px;
+    width:40px;
+    font-weight:bold;
+    background:rgb(49, 125, 218);
+    color:white;
+}
+.txt
+{
+    display:flex;
+    margin-left:80px;
+}
+.number
+{
+    height:27px;
+    margin-top:10px;
+    width:70px;
+    background:black;
+    color:white;
+}
+.reset
+{
+    height:35px;
+    width:60px;
+    margin-left:170px;
+    background:rgb(49, 125, 218);
+    color:white;
+}
