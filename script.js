@@ -18,8 +18,10 @@ decre.addEventListener('click',() => {
 });
 
 reset.addEventListener('click',() => {
+    let inputValue = parseInt(numberInput.value)||1;
     count = 0;
     num.innerText = count;
+    numberInput.value="";
 });
 
 
